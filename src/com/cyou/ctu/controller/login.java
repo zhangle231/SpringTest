@@ -35,6 +35,7 @@ public class login extends HttpServlet {
 		if (null != userInfo);
 		request.setAttribute("userInfo", userInfo);
 		response.sendRedirect("index.jsp");
+		
 	}
 
 	/**
