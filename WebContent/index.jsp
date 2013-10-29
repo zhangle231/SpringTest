@@ -11,29 +11,13 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
 </head>
-<body>
-	<div class="demo-info">
-		<div class="Hello World!"></div>
-		<div>hhh</div>
+<body class="easyui-layout" style="height: 100%; width: 100%;">
+	<div data-options="region:'north'" style="height: 30%; width:100%"></div>
+	<div data-options="region:'south',split:true" style="height: 30%;"></div>
+	<div data-options="region:'east',split:true" title="East" style="width: 70%;"></div>
+	<div data-options="region:'west',split:true" title="West" style="width: 70%;"></div>
+	<div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
+		<h1>欢迎使用</h1>
 	</div>
-	<div style="margin: 10px 0;"></div>
-	<div class="easyui-layout" style="width: 100%; height: 350px;">
-		<div data-options="region:'north'" style="height: 50px"></div>
-		<div data-options="region:'south',split:true" style="height:50px;"></div>
-		<div data-options="region:'east',split:true" title="East" style="width:180px;"></div>
-		<div data-options="region:'west',split:true" title="West" style="width:100px;"></div>
-		<div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
-			<h1>欢迎使用</h1>
-		</div>
-		
-	</div>
-		<script>
-			function submitForm() {
-				$('#ff').submit();
-			}
-			function clearForm() {
-				$('#ff').form('clear');
-			}
-		</script>
 </body>
 </html>
