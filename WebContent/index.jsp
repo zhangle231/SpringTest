@@ -10,7 +10,6 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
 </head>
-
 <body class="easyui-layout" style="height: 100%; width: 100%;">
 	<div data-options="region:'north'" style="height: 30%; width: 100%"></div>
 	<div data-options="region:'south',split:true" style="height: 30%;"></div>
