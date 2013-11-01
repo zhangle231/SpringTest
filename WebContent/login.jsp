@@ -5,9 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>登录</title>
-<link rel="stylesheet" type="text/css" href="css/black/easyui.css">
+<link rel="stylesheet" type="text/css" href="css/default/easyui.css">
 <link rel="stylesheet" type="text/css" href="css/icon.css">
-<link rel="stylesheet" type="text/css" href="css/demo.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
 </head>

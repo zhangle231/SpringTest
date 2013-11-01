@@ -15,13 +15,13 @@ import com.cyou.ctu.service.LoginService;
  * Servlet implementation class login
  */
 @WebServlet("/login")
-public class login extends HttpServlet {
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private LoginService loginService = new LoginService();
     /**
      * Default constructor. 
      */
-    public login() {
+    public Login() {
         // TODO Auto-generated constructor stub
     }
 
